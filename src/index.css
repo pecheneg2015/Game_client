@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.invite_position {
+    margin-top: 30%;
+}
+
+.invite {
+    text-align: center;
+    font-size: 24px;
+    font-family: serif;
+}
+
+.invite_link {
+    font-weight: 600;
+}
+
+.gamepanel_info_image {
+    margin: 0 auto;
+}
+
+.select_gesture_element {
+    transition: all .2s ease-in-out;
+}
+
+.select_gesture_element:hover {
+    transform: scale(1.1);
+}
+
+.select_gesture_element_text,
+.game_panel_element_text {
+    text-align: center;
+    font-size: 28px;
+    font-family: serif;
+}
+
+.message_right {
+    text-align: left;
+    background-color: bisque;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.message_left {
+    text-align: right;
+    background-color: khaki;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.chat {
+    padding-top: 25px;
+}
+
+.message_list_area {
+    margin-top: 15px;
+    max-height: 300px;
+    overflow-y: auto;
+}
